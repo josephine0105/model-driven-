@@ -1,0 +1,38 @@
+table{
+    border: 1px solid black;
+    border-collapse:collapse ;
+}
+td{
+    border: 1px solid black;
+}
+input[type="radio"],[type="checkbox"]{
+    width: 15px;
+}
+form{
+    width:100%;
+    margin-top: 20px;
+    margin-left: 500px;
+    
+}
+h1{
+    text-align: center;
+}
+.left-content{
+    width: 50%;
+    float: left;
+}
+.right-content{
+    width: 50%;
+    float: right;
+    padding-left:50px;
+}
+.form-control.ng-touched.ng-invalid{
+    border: 1px solid red;
+}
+@media screen and (max-width:767px) and (min-width:320px) {
+    form{
+       margin-top: 20px;
+        width: 100%;
+        margin-left: 0px;
+    }
+}
